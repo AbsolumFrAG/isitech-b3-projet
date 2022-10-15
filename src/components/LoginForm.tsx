@@ -3,8 +3,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { signIn, signInAsGuest } from "../../firebase";
-import tw from "tailwind-styled-components/dist/tailwind";
-import disclownIcon from "../../assets/disclownIcon.svg";
+import tw from "tailwind-styled-components";
 import { useRouter } from "next/router";
 
 export default function LoginForm() {
@@ -82,14 +81,6 @@ export default function LoginForm() {
       <Separator />
 
       <BanterContainer onClick={guestLogin}>
-        <BanterIcon>
-          <StyledImage
-            src={disclownIcon}
-            width={176}
-            height={176}
-            alt="Disclown logo"
-          />
-        </BanterIcon>
         <Caption>Se connecter en tant qu&apos;invité</Caption>
         <SubCaption>
           Cliquez ici pour vous connecter à Disclown avec un{" "}
