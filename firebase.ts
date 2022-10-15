@@ -30,13 +30,13 @@ import { RoleData, ServerData } from "./src/features/servers";
 // import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+    apiKey: "AIzaSyBdpb4hyroFW2I8SuaXSdorkoh-vbMB2Jo",
+    authDomain: "disclown-91473.firebaseapp.com",
+    projectId: "disclown-91473",
+    storageBucket: "disclown-91473.appspot.com",
+    messagingSenderId: "1054319549913",
+    appId: "1054319549913:web:740fb37d17c4cd4ad58dc8",
+    measurementId: "G-DPEYZBKGKD",
 };
 
 export async function createAccount(
